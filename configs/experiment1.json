@@ -3,15 +3,12 @@
   "agent": "WSCMER",
   "mode": "train",
   "model_archs": ["UNet"],
-  "augmentation": false,
-  "dropout": false,
 
   "cuda": true,
   "gpu_device": 0,
   "seed": 1337,
 
   "num_classes": 2,
-
   "img_size": 240,
   "input_channels": [1,1],
   "downsize_nb_filters_factor": 1,
