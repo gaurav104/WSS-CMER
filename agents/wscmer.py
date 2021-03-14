@@ -19,7 +19,7 @@ import torchvision
 from graphs.models.unet_cam import UNetCAM
 
 #importing data loader and transformations
-from datasets.brats import BratsLoader , All, HFlip, Rotate, Translate, Scale, Resize
+from datasets.brats import BratsLoader , All, Flip, Rotate, Translate, Scale, Resize
 
 from tensorboardX import SummaryWriter
 
