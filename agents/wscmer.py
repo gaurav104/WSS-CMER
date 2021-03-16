@@ -216,7 +216,7 @@ class WSCMER(BaseAgent):
 			ce.append(AverageMeter())
 			accuracy.append(AverageMeter())
 		
-		for x, y in tqdm_batch:
+		for x, y, _ in tqdm_batch:
 
 			if self.cuda:
 				x, y = x.pin_memory().cuda(), y.pin_memory().cuda(non_blocking=True)
@@ -369,7 +369,7 @@ class WSCMER(BaseAgent):
 			kl.append(AverageMeter())
 			accuracy.append(AverageMeter())
 		
-		for x, y in tqdm_batch:
+		for x, y, _ in tqdm_batch:
 			if self.cuda:
 				x, y = x.pin_memory().cuda(), y.pin_memory().cuda(non_blocking=True)
 			x, y = Variable(x), Variable(y)
