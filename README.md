@@ -33,7 +33,7 @@ tensorboardX 1.2
 torch 1.4.0
 torchvision 0.5.0
 
- 2. Hardware : A 12 GB+ CUDA-enabled GPU for the bi-modal setup. For quad-modality setup a single with 24GB GPU may be required, however 2 12GB can be used train in DataParallel mode. 
+ 2. Hardware : A 12 GB+ CUDA-enabled GPU for the bi-modal setup. For quad-modality setup a single with 24GB GPU may be required, however, 2-12GB GPUs can be used to train in DataParallel mode. 
 
 ### Download data
 
