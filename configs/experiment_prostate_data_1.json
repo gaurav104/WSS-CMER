@@ -1,21 +1,23 @@
 {
-  "exp_name": "experiment1",
+  "exp_name": "experiment_prostate_data_1",
   "agent": "WSCMER",
   "mode": "train",
   "model_archs": ["UNet"],
+
 
   "cuda": true,
   "gpu_device": 0,
   "seed": 1337,
 
   "num_classes": 2,
-  "img_size": 240,
+
+  "img_size": 256,
   "input_channels": [1,1],
-  "downsize_nb_filters_factor": 1,
+  "downsize_nb_filters_factor": 4,
   "num_models": 2,
   "lmda": 5e-1,
 
-  "learning_rate": 5e-5,
+  "learning_rate": 1e-4,
   "weight_decay": 5e-1,
   "eps": 1e-8,
   "betas": [0.9, 0.999],
@@ -24,22 +26,24 @@
   "temp": 10,
 
   "batch_size": 16,
-  "max_epoch": 30,
+  "max_epoch": 100,
   "transformation": "all",
   "loss_eps": 1e-8,
 
   "validate_every": 2,
   "checkpoint_file": "{}_checkpoint.pth.tar",
 
+
+  "pretrained_models": "Pretrained model weight, if any",
   "pretrained": false,
-  "pretrained_model": " Pretrained expriment directory",
-  "data_loader": "BratsLoader",
-  "data_root": "./brats_classification/",
-  "data_root_infer": "./brats_data/",
-  "modality": "T1,T2",
+  "data_loader": "ProstateLoader",
+  "data_root": "./prostate_data_1",
+  "data_root_infer": "./prostate_data_1",
+  "modality": "T2,ADC",
   "data_loader_workers": 4,
   "pin_memory": true,
   "async_loading": true,
-    
+
   "run_on_cluster": false
 }
+
