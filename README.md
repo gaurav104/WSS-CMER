@@ -40,7 +40,7 @@ torchvision 0.5.0
 #### Dataset
 
 1. The BraTS-2019 dataset can downloaded from this [link](https://www.med.upenn.edu/cbica/brats2019/data.html)
-2. Our preprocessed and 3-fold cross-validation split of prostate DECATHALON dataset can be downloaded from these links. [Split1](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EedgwcEyo7hMsLU5rXhTv7ABGHhNN2OxLYXRzYpjKNGnzw?e=zw8y9w), [Split2](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EQK8lxWv79xArtUlZiQWCpYBZ0f3EezwFMMmJXxbwtJ_Pw?e=0ZfJil), [Split3](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EWPV_gMHejNHpEqa81qjpwMBFSy4i6MxE8U6uyIzW8naGA?e=rBVASw) . The splits are  **.tar** files which are required to be extracted in the using ```tar -xvf <dataset_name>.tar```
+2. Our preprocessed and 3-fold cross-validation split of prostate DECATHALON dataset can be downloaded from these links. [Split1](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EedgwcEyo7hMsLU5rXhTv7ABGHhNN2OxLYXRzYpjKNGnzw?e=zw8y9w), [Split2](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EQK8lxWv79xArtUlZiQWCpYBZ0f3EezwFMMmJXxbwtJ_Pw?e=0ZfJil), [Split3](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/EWPV_gMHejNHpEqa81qjpwMBFSy4i6MxE8U6uyIzW8naGA?e=rBVASw) . The splits are  **.tar** files which need to be extracted, which can be done by ```tar -xvf <dataset_name>.tar```
 
 
 
