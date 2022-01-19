@@ -1,6 +1,6 @@
 ﻿# Weakly-supervised segmentation with cross-modality equivariant constraints
 
-Update 01/22: Paper accepted at [Medical Image Analysis (MedIA)](https://www.journals.elsevier.com/medical-image-analysis) !
+Update 01/22: Paper accepted in [Medical Image Analysis (MedIA)](https://www.journals.elsevier.com/medical-image-analysis) !
 
 Code for the paper : "Weakly supervised segmentation with cross-modality equivariant constraints", available at https://arxiv.org/pdf/2104.02488.pdf:
 
