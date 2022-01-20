@@ -100,8 +100,8 @@ Please cite our paper if the code is helpful to your research.
 @article{patel2021weakly,
   title={Weakly supervised segmentation with cross-modality equivariant constraints},
   author={Patel, Gaurav and Dolz, Jose},
-  journal={arXiv preprint arXiv:2104.02488},
-  year={2021}
+  journal={{Medical Image Analysis}},
+  year={2022}
 }
 ```
 
