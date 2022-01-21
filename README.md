@@ -20,7 +20,6 @@ easydict 1.9
 kornia 0.3.1
 tensorboardX 2.0
 tqdm 4.41.1
-easydict 1.7
 graphviz 0.8.4
 imageio 2.3.0
 matplotlib 2.2.2
