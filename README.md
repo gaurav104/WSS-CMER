@@ -103,7 +103,8 @@ pages = {102374},
 year = {2022},
 issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2022.102374},
-url = {https://www.sciencedirect.com/science/article/pii/S1361841522000275},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841522000275}
+}
 ```
 
 ## Contact
