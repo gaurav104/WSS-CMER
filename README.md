@@ -96,12 +96,14 @@ python main.py ./configs/experiment_prostate_data_1.json
 ## Citation
 Please cite our paper if the code is helpful to your research.
 ```
-@article{patel2021weakly,
-  title={Weakly supervised segmentation with cross-modality equivariant constraints},
-  author={Patel, Gaurav and Dolz, Jose},
-  journal={Medical Image Analysis},
-  year={2022}
-}
+@article{PATEL2022102374,
+title = {Weakly supervised segmentation with cross-modality equivariant constraints.},
+journal = {Medical Image Analysis},
+pages = {102374},
+year = {2022},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2022.102374},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841522000275},
 ```
 
 ## Contact
