@@ -97,14 +97,16 @@ python main.py ./configs/experiment_prostate_data_1.json
 Please cite our paper if the code is helpful to your research.
 ```
 @article{PATEL2022102374,
-title = {Weakly supervised segmentation with cross-modality equivariant constraints.},
+title = {Weakly supervised segmentation with cross-modality equivariant constraints},
 journal = {Medical Image Analysis},
+volume = {77},
 pages = {102374},
 year = {2022},
 issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2022.102374},
 url = {https://www.sciencedirect.com/science/article/pii/S1361841522000275},
-author = {Gaurav Patel and Jose Dolz}
+author = {Gaurav Patel and Jose Dolz},
+keywords = {Weakly supervised segmentation, Multi-modal segmentation, Self-training, Equivariant constraints},
 }
 ```
 
