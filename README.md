@@ -2,7 +2,7 @@
 
 Update 01/22: Paper accepted in [Medical Image Analysis (MedIA)](https://www.journals.elsevier.com/medical-image-analysis) !
 
-Pytorch code for the paper : "Weakly supervised segmentation with cross-modality equivariant constraints", available at https://arxiv.org/pdf/2104.02488.pdf:
+Pytorch code for the paper : "Weakly supervised segmentation with cross-modality equivariant constraints", Pre-print available at https://arxiv.org/pdf/2104.02488.pdf. For the accept version please visit this link https://doi.org/10.1016/j.media.2022.102374:
 
 
 <img src="figures/weak-sup.png" width="800" height="447"/>
