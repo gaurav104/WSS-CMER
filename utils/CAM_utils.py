@@ -39,8 +39,6 @@ class CAM:
 		b, k, u, v = gradients_size
 		alpha = gradients.view(b, k, -1).mean(2)
 		# alpha = F.relu(gradienif self.config.mode == 'train':
-			for i in range(self.num_models):
-				self.load_checkpoint(self.config.checkpoint_file, model_index=i)ts.view(b, k, -1)).mean(2)
 		weights = alpha.view(b, k, 1, 1)
 
 		saliency_map = (weights*activations).sum(1, keepdim=True)

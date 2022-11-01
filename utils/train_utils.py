@@ -30,9 +30,7 @@ def export_jsondump(writer):
 
 	tf_files = [] # -> list of paths from writer.log_dir to all files in that directory
 	for root, dirs, files in os.walk(writer.log_dir):
-		for file in files:if self.config.mode == 'train':
-			for i in range(self.num_models):
-				self.load_checkpoint(self.config.checkpoint_file, model_index=i)
+		for file in files:
 			tf_files.append(os.path.join(root,file)) # go over every file recursively in the directory
 
 	for file_id, file in enumerate(tf_files):
